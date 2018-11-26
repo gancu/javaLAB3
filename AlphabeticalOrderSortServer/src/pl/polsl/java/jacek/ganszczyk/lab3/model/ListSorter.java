@@ -1,7 +1,5 @@
 package pl.polsl.java.jacek.ganszczyk.lab3.model;
 
-import pl.polsl.java.jacek.ganszczyk.lab3.model.exceptions.NullListException;
-
 import java.util.Collections;
 import java.util.LinkedList;
 

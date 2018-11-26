@@ -5,15 +5,32 @@ import java.io.FileOutputStream;
 import java.io.IOException;
 import java.util.Properties;
 
-
+/**
+ * Class for taking care of application properties, static methods used to get the values
+ *
+ * @author Jacek Ganszczyk
+ * @version 2.0-online
+ */
 public class Props {
 
-    public static Properties properties = new Properties();
+    /***
+     * New static properties field
+     */
+    private static final Properties properties = new Properties();
 
-
+    /**
+     * method returns given properties
+     *
+     * @param propName
+     * @return
+     */
     public static String getProps(String propName) {
         return properties.getProperty(propName);
     }
+
+    /**
+     * Method loads at begining all needed properties
+     */
     public static void loadProperties() {
         try (FileInputStream in = new FileInputStream("config.properties")) {
             properties.load(in);
@@ -24,8 +41,10 @@ public class Props {
         }
     }
 
-        public static void setProperties() {
-        properties.setProperty("IP_ADRESS","localhost");
+    /**
+     * Method creates properties for first run of server
+     */
+    public static void setProperties() {
         properties.setProperty("PORT", "8888");
         String filesDirGet = System.getProperty("user.dir");
         properties.setProperty("FILES_DIR", filesDirGet + "\\dataFiles");
@@ -43,3 +62,4 @@ public class Props {
         }
     }
 }
+

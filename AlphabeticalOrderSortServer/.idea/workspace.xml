@@ -15,23 +15,32 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="SingleService.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/pl/polsl/java/jacek/ganszczyk/lab3/networkController/SingleService.java">
+      <file leaf-file-name="SingleService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/pl/polsl/java/jacek/ganszczyk/lab3/serverTCP/SingleService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="203">
-              <caret line="145" selection-start-line="145" selection-end-line="145" />
+            <state relative-caret-position="191">
+              <caret line="127" column="47" selection-start-line="127" selection-start-column="47" selection-end-line="127" selection-end-column="47" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="NullListException.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/pl/polsl/java/jacek/ganszczyk/lab3/model/NullListException.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="3" column="32" selection-start-line="3" selection-start-column="32" selection-end-line="3" selection-end-column="32" />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="TCPServer.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/pl/polsl/java/jacek/ganszczyk/lab3/networkController/TCPServer.java">
+        <entry file="file://$PROJECT_DIR$/src/pl/polsl/java/jacek/ganszczyk/lab3/serverTCP/TCPServer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
-              <caret line="35" selection-start-line="35" selection-end-line="35" />
+            <state relative-caret-position="629">
+              <caret line="40" column="37" lean-forward="true" selection-start-line="40" selection-start-column="37" selection-end-line="40" selection-end-column="37" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -39,11 +48,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AlphabeticalOrderSortApplication.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/pl/polsl/java/jacek/ganszczyk/lab3/AlphabeticalOrderSortApplication.java">
+      <file leaf-file-name="AlphabeticalOrderSortApplicationServer.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/pl/polsl/java/jacek/ganszczyk/lab3/AlphabeticalOrderSortApplicationServer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="442">
-              <caret line="26" column="30" selection-start-line="26" selection-start-column="30" selection-end-line="26" selection-end-column="30" />
+            <state relative-caret-position="319">
+              <caret line="31" selection-start-line="31" selection-end-line="31" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -51,13 +60,15 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FileActionsTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/pl/polsl/java/jacek/ganszczyk/lab3/test/FileActionsTest.java">
+      <file leaf-file-name="Props.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/pl/polsl/java/jacek/ganszczyk/lab3/Props.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="254">
-              <caret line="56" column="47" selection-start-line="56" selection-start-column="47" selection-end-line="56" selection-end-column="47" />
+              <caret line="45" column="39" lean-forward="true" selection-start-line="45" selection-start-column="39" selection-end-line="45" selection-end-column="39" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#561#562#0" expanded="true" />
+                <element signature="e#616#617#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -66,8 +77,20 @@
       <file leaf-file-name="FileActions.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/pl/polsl/java/jacek/ganszczyk/lab3/model/FileActions.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="628">
-              <caret line="85" column="73" selection-start-line="85" selection-start-column="73" selection-end-line="85" selection-end-column="73" />
+            <state relative-caret-position="645">
+              <caret line="60" column="8" selection-start-line="60" selection-start-column="8" selection-end-line="60" selection-end-column="8" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ListSorter.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/pl/polsl/java/jacek/ganszczyk/lab3/model/ListSorter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="18" column="7" lean-forward="true" selection-start-line="18" selection-start-column="7" selection-end-line="18" selection-end-column="7" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -88,6 +111,7 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>Ł</find>
+      <find>AlphabeticalOrderSortApplication</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -134,10 +158,14 @@
         <option value="$PROJECT_DIR$/src/pl/polsl/java/jacek/ganszczyk/lab2/Props.java" />
         <option value="$PROJECT_DIR$/src/pl/polsl/java/jacek/ganszczyk/lab2/networkController/SingleService.java" />
         <option value="$PROJECT_DIR$/src/pl/polsl/java/jacek/ganszczyk/lab2/test/FileActionsTest.java" />
+        <option value="$PROJECT_DIR$/src/pl/polsl/java/jacek/ganszczyk/lab3/test/FileActionsTest.java" />
         <option value="$PROJECT_DIR$/src/pl/polsl/java/jacek/ganszczyk/lab3/AlphabeticalOrderSortApplication.java" />
         <option value="$PROJECT_DIR$/src/pl/polsl/java/jacek/ganszczyk/lab3/model/FileActions.java" />
-        <option value="$PROJECT_DIR$/src/pl/polsl/java/jacek/ganszczyk/lab3/test/FileActionsTest.java" />
         <option value="$PROJECT_DIR$/src/pl/polsl/java/jacek/ganszczyk/lab3/networkController/SingleService.java" />
+        <option value="$PROJECT_DIR$/src/pl/polsl/java/jacek/ganszczyk/lab3/networkController/TCPServer.java" />
+        <option value="$PROJECT_DIR$/src/pl/polsl/java/jacek/ganszczyk/lab3/Props.java" />
+        <option value="$PROJECT_DIR$/src/pl/polsl/java/jacek/ganszczyk/lab3/serverTCP/SingleService.java" />
+        <option value="$PROJECT_DIR$/src/pl/polsl/java/jacek/ganszczyk/lab3/AlphabeticalOrderSortApplicationServer.java" />
       </list>
     </option>
   </component>
@@ -151,7 +179,8 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-7" />
+    <option name="x" value="636" />
+    <option name="y" value="87" />
     <option name="width" value="974" />
     <option name="height" value="1057" />
   </component>
@@ -161,6 +190,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -186,11 +216,34 @@
               <item name="polsl" type="462c0819:PsiDirectoryNode" />
               <item name="lab3" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="AlphabeticalOrderSortServer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AlphabeticalOrderSortServer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="polsl" type="462c0819:PsiDirectoryNode" />
+              <item name="lab3" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AlphabeticalOrderSortServer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AlphabeticalOrderSortServer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="polsl" type="462c0819:PsiDirectoryNode" />
+              <item name="lab3" type="462c0819:PsiDirectoryNode" />
+              <item name="serverTCP" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AlphabeticalOrderSortServer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AlphabeticalOrderSortServer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="polsl" type="462c0819:PsiDirectoryNode" />
+              <item name="lab3" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="AndroidView" />
       <pane id="PackagesPane" />
     </panes>
@@ -237,7 +290,7 @@
   </component>
   <component name="RunManager" selected="Application.Unnamed">
     <configuration name="Unnamed" type="Application" factoryName="Application">
-      <option name="MAIN_CLASS_NAME" value="pl.polsl.java.jacek.ganszczyk.lab3.AlphabeticalOrderSortApplication" />
+      <option name="MAIN_CLASS_NAME" value="pl.polsl.java.jacek.ganszczyk.lab3.AlphabeticalOrderSortApplicationServer" />
       <module name="AlphabeticalOrderSortServer" />
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
     </configuration>
@@ -384,13 +437,11 @@
       <workItem from="1542743097182" duration="3739000" />
       <workItem from="1542746925310" duration="753000" />
       <workItem from="1542748159832" duration="2813000" />
+      <workItem from="1543244950299" duration="13069000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Tests - 2018.11.20 at 20h 53m 39s.xml">
-      <configuration name="Tests" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="Tests - 2018.11.20 at 20h 53m 48s.xml">
       <configuration name="Tests" configurationId="JUnit" />
     </history-entry>
@@ -418,71 +469,84 @@
     <history-entry file="Tests - 2018.11.20 at 22h 17m 40s.xml">
       <configuration name="Tests" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="Tests - 2018.11.26 at 20h 25m 10s.xml">
+      <configuration name="Tests" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="55641000" />
+    <option name="totallyTimeSpent" value="68710000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" order="7" weight="0.3297414" />
+      <window_info anchor="bottom" id="Messages" order="7" sideWeight="0.4989339" weight="0.3297414" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5010661" side_tool="true" visible="true" weight="0.33836207" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5010661" side_tool="true" visible="true" weight="0.3297414" />
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4989339" weight="0.2349138" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.3296875" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49413645" weight="0.2349138" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49946696" weight="0.3286638" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.51302934" visible="true" weight="0.10181237" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.522508" visible="true" weight="0.19936034" />
+      <window_info anchor="bottom" id="Inspection Results" order="8" sideWeight="0.4989339" visible="true" weight="0.3297414" />
       <window_info anchor="right" id="Database" order="3" />
-      <window_info id="Structure" order="1" sideWeight="0.4869707" side_tool="true" visible="true" weight="0.10181237" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3297414" />
+      <window_info id="Structure" order="1" sideWeight="0.47749197" side_tool="true" visible="true" weight="0.19936034" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
       <window_info anchor="right" id="Theme Preview" order="3" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49946696" weight="0.33836207" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.6369936" weight="0.33836207" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Inspection Results" order="8" weight="0.3297414" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" visible="true" weight="0.3297414" />
     </layout>
     <layout-to-restore>
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3297414" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Capture Analysis" order="7" />
       <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3296875" />
       <window_info anchor="right" id="Theme Preview" order="8" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Messages" order="9" weight="0.3297414" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26779935" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="10" show_stripe_button="false" />
       <window_info anchor="bottom" id="Inspection Results" order="12" weight="0.3297414" />
       <window_info id="Designer" order="3" />
-      <window_info id="Image Layers" order="5" />
       <window_info id="UI Designer" order="4" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="5" />
-      <window_info anchor="right" id="Palette&#9;" order="6" />
+      <window_info id="Image Layers" order="5" />
       <window_info anchor="bottom" id="Terminal" order="11" weight="0.3296875" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.34051725" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Version Control" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info id="Capture Tool" order="2" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.3297414" />
-      <window_info anchor="bottom" id="Messages" order="9" weight="0.3297414" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
       <window_info anchor="right" id="Maven Projects" order="4" />
       <window_info id="Favorites" order="6" side_tool="true" />
     </layout-to-restore>
@@ -497,13 +561,13 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/pl/polsl/java/jacek/ganszczyk/lab3/networkController/SingleService.java</url>
-          <line>145</line>
+          <url>file://$PROJECT_DIR$/src/pl/polsl/java/jacek/ganszczyk/lab3/serverTCP/SingleService.java</url>
+          <line>211</line>
           <properties />
-          <option name="timeStamp" value="48" />
+          <option name="timeStamp" value="54" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="49" />
+      <option name="time" value="55" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="Application">
@@ -522,7 +586,7 @@
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/pl/polsl/java/jacek/ganszczyk/lab1/test/ListSorterTest.java" />
-    <entry file="file://$PROJECT_DIR$/src/pl/polsl/java/jacek/ganszczyk/lab3/AlphabeticalOrderSortApplication.java">
+    <entry file="file://$PROJECT_DIR$/src/pl/polsl/java/jacek/ganszczyk/lab3/AlphabeticalOrderSortApplicationServer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="391">
           <caret line="26" column="47" selection-start-line="26" selection-start-column="47" selection-end-line="26" selection-end-column="47" />
@@ -533,7 +597,7 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/pl/polsl/java/jacek/ganszczyk/lab2/networkController/Controller.java" />
-    <entry file="file://$PROJECT_DIR$/src/pl/polsl/java/jacek/ganszczyk/lab3/model/exceptions/NullListException.java">
+    <entry file="file://$PROJECT_DIR$/src/pl/polsl/java/jacek/ganszczyk/lab3/model/NullListException.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
           <caret line="20" column="46" selection-start-line="20" selection-start-column="46" selection-end-line="20" selection-end-column="46" />
@@ -561,7 +625,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/pl/polsl/java/jacek/ganszczyk/lab3/AlphabeticalOrderSortApplication.java">
+    <entry file="file://$PROJECT_DIR$/src/pl/polsl/java/jacek/ganszczyk/lab3/AlphabeticalOrderSortApplicationServer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="391">
           <caret line="26" column="47" selection-start-line="26" selection-start-column="47" selection-end-line="26" selection-end-column="47" />
@@ -572,7 +636,7 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/pl/polsl/java/jacek/ganszczyk/lab2/networkController/Controller.java" />
-    <entry file="file://$PROJECT_DIR$/src/pl/polsl/java/jacek/ganszczyk/lab3/model/exceptions/NullListException.java">
+    <entry file="file://$PROJECT_DIR$/src/pl/polsl/java/jacek/ganszczyk/lab3/model/NullListException.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
           <caret line="20" column="46" lean-forward="true" selection-start-line="20" selection-start-column="46" selection-end-line="20" selection-end-column="46" />
@@ -600,7 +664,7 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/pl/polsl/java/jacek/ganszczyk/lab3/view/View.java" />
-    <entry file="file://$PROJECT_DIR$/src/pl/polsl/java/jacek/ganszczyk/lab3/AlphabeticalOrderSortApplication.java">
+    <entry file="file://$PROJECT_DIR$/src/pl/polsl/java/jacek/ganszczyk/lab3/AlphabeticalOrderSortApplicationServer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="527">
           <caret line="35" selection-start-line="35" selection-end-line="35" />
@@ -634,7 +698,7 @@
     <entry file="file://$PROJECT_DIR$/src/pl/polsl/java/jacek/ganszczyk/lab3/view/View.java" />
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_162/src.zip!/java/lang/String.java" />
     <entry file="file://$PROJECT_DIR$/src/pl/polsl/java/jacek/ganszczyk/lab2/networkController/Controller.java" />
-    <entry file="file://$PROJECT_DIR$/src/pl/polsl/java/jacek/ganszczyk/lab3/AlphabeticalOrderSortApplication.java">
+    <entry file="file://$PROJECT_DIR$/src/pl/polsl/java/jacek/ganszczyk/lab3/AlphabeticalOrderSortApplicationServer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
           <caret line="17" column="2" selection-start-line="17" selection-start-column="2" selection-end-line="17" selection-end-column="2" />
@@ -697,13 +761,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/pl/polsl/java/jacek/ganszczyk/lab3/model/exceptions/NullListException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="46" selection-start-line="20" selection-start-column="46" selection-end-line="20" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/pl/polsl/java/jacek/ganszczyk/lab1/test/FileActionsTest.java" />
     <entry file="file://$PROJECT_DIR$/src/pl/polsl/java/jacek/ganszczyk/lab1/test/ListSorterTest.java" />
     <entry file="file://$PROJECT_DIR$/test/FileActionsTest.java" />
@@ -713,10 +770,20 @@
     <entry file="file://$PROJECT_DIR$/src/pl/polsl/java/jacek/ganszczyk/lab2/networkController/Controller.java" />
     <entry file="file://$PROJECT_DIR$/src/pl/polsl/java/jacek/ganszczyk/lab2/PropertiesInitialization.java" />
     <entry file="file://$PROJECT_DIR$/src/pl/polsl/resources/PropertiesInitialization.java" />
-    <entry file="file://$PROJECT_DIR$/src/pl/polsl/java/jacek/ganszczyk/lab3/model/ListSorter.java">
+    <entry file="file://$PROJECT_DIR$/src/pl/polsl/java/jacek/ganszczyk/lab3/test/FileActionsTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="18" column="27" selection-start-line="18" selection-start-column="27" selection-end-line="18" selection-end-column="27" />
+        <state relative-caret-position="-103">
+          <caret line="56" column="47" selection-start-line="56" selection-start-column="47" selection-end-line="56" selection-end-column="47" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pl/polsl/java/jacek/ganszczyk/lab3/serverTCP/TCPServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="629">
+          <caret line="40" column="37" lean-forward="true" selection-start-line="40" selection-start-column="37" selection-end-line="40" selection-end-column="37" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -725,55 +792,57 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/pl/polsl/java/jacek/ganszczyk/lab3/Props.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="16" column="17" selection-start-line="16" selection-start-column="11" selection-end-line="16" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pl/polsl/java/jacek/ganszczyk/lab3/networkController/TCPServer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="35" selection-start-line="35" selection-end-line="35" />
+        <state relative-caret-position="254">
+          <caret line="45" column="39" lean-forward="true" selection-start-line="45" selection-start-column="39" selection-end-line="45" selection-end-column="39" />
           <folding>
             <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pl/polsl/java/jacek/ganszczyk/lab3/AlphabeticalOrderSortApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="26" column="30" selection-start-line="26" selection-start-column="30" selection-end-line="26" selection-end-column="30" />
-          <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#561#562#0" expanded="true" />
+            <element signature="e#616#617#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/pl/polsl/java/jacek/ganszczyk/lab3/model/FileActions.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="628">
-          <caret line="85" column="73" selection-start-line="85" selection-start-column="73" selection-end-line="85" selection-end-column="73" />
+        <state relative-caret-position="645">
+          <caret line="60" column="8" selection-start-line="60" selection-start-column="8" selection-end-line="60" selection-end-column="8" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/pl/polsl/java/jacek/ganszczyk/lab3/test/FileActionsTest.java">
+    <entry file="file://$PROJECT_DIR$/src/pl/polsl/java/jacek/ganszczyk/lab3/model/ListSorter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="254">
-          <caret line="56" column="47" selection-start-line="56" selection-start-column="47" selection-end-line="56" selection-end-column="47" />
+        <state relative-caret-position="306">
+          <caret line="18" column="7" lean-forward="true" selection-start-line="18" selection-start-column="7" selection-end-line="18" selection-end-column="7" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/pl/polsl/java/jacek/ganszczyk/lab3/networkController/SingleService.java">
+    <entry file="file://$PROJECT_DIR$/src/pl/polsl/java/jacek/ganszczyk/lab3/model/NullListException.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="203">
-          <caret line="145" selection-start-line="145" selection-end-line="145" />
+        <state relative-caret-position="51">
+          <caret line="3" column="32" selection-start-line="3" selection-start-column="32" selection-end-line="3" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pl/polsl/java/jacek/ganszczyk/lab3/serverTCP/SingleService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="191">
+          <caret line="127" column="47" selection-start-line="127" selection-start-column="47" selection-end-line="127" selection-end-column="47" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pl/polsl/java/jacek/ganszczyk/lab3/AlphabeticalOrderSortApplicationServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="319">
+          <caret line="31" selection-start-line="31" selection-end-line="31" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -832,7 +901,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>AlphabeticalOrderSort</last-edited>
+          <last-edited>AlphabeticalOrderSortServer</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

@@ -7,7 +7,7 @@ import org.junit.Test;
 import pl.polsl.java.jacek.ganszczyk.lab3.Props;
 import pl.polsl.java.jacek.ganszczyk.lab3.model.FileActions;
 import pl.polsl.java.jacek.ganszczyk.lab3.model.ListSorter;
-import pl.polsl.java.jacek.ganszczyk.lab3.model.exceptions.NullListException;
+import pl.polsl.java.jacek.ganszczyk.lab3.model.NullListException;
 
 import java.io.BufferedWriter;
 import java.io.File;
@@ -28,8 +28,8 @@ public class FileActionsTest {
     /**
      * Instances of model objects
      */
-    FileActions fileActions = new FileActions();
-    ListSorter testListSorter = new ListSorter();
+    final FileActions fileActions = new FileActions();
+    final ListSorter testListSorter = new ListSorter();
     LinkedList<String> testList = new LinkedList<>();
     static String path;
 

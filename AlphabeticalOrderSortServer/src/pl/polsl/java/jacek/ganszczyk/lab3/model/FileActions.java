@@ -19,7 +19,7 @@ public class FileActions {
      * Field keeps name of file
      */
     @NotNull
-    private String path;
+    private final String path;
 
     private String fileName;
 
@@ -27,7 +27,6 @@ public class FileActions {
     /**
      * Main class constructor
      *
-     * @param fileName saves to this field filename
      */
     public FileActions() {
         path = Props.getProps("FILES_DIR");
@@ -59,18 +58,14 @@ public class FileActions {
         BufferedReader readBuffer;
         LinkedList<String> stringsFromFile = new LinkedList<>();
         String oneLine;
-        try {
-            readBuffer = new BufferedReader(new FileReader(path + "\\" + fileName));
-            do {
-                oneLine = readBuffer.readLine();
-                if (null != oneLine && oneLine.trim().length() > 0)
-                    stringsFromFile.add(oneLine);
-            }
-            while (null != oneLine);
-            readBuffer.close();
-        } catch (IOException e) {
-            throw e;
+        readBuffer = new BufferedReader(new FileReader(path + "\\" + fileName));
+        do {
+            oneLine = readBuffer.readLine();
+            if (null != oneLine && oneLine.trim().length() > 0)
+                stringsFromFile.add(oneLine);
         }
+        while (null != oneLine);
+        readBuffer.close();
         return stringsFromFile;
     }
 
@@ -82,16 +77,12 @@ public class FileActions {
      */
     public void saveSortedListToFile(LinkedList<String> sortedList) throws IOException {
         BufferedWriter writeBuffer;
-        try {
-            writeBuffer = new BufferedWriter(new FileWriter(path + "\\" + fileName, true));
-            for (String item : sortedList) {
-                writeBuffer.write(item);
-                writeBuffer.newLine();
-            }
-            writeBuffer.close();
-        } catch (IOException e) {
-            throw e;
+        writeBuffer = new BufferedWriter(new FileWriter(path + "\\" + fileName, true));
+        for (String item : sortedList) {
+            writeBuffer.write(item);
+            writeBuffer.newLine();
         }
+        writeBuffer.close();
 
     }
 

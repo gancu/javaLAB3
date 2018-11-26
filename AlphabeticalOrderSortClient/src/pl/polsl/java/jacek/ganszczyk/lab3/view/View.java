@@ -1,7 +1,12 @@
 package pl.polsl.java.jacek.ganszczyk.lab3.view;
 
 import java.util.LinkedList;
-
+/**
+ * Class with console view
+ *
+ * @author Jacek Ganszczyk
+ * @version 2.0-online
+ */
 public class View {
 
     /**
@@ -13,6 +18,10 @@ public class View {
         System.out.println(message);
     }
 
+    /**
+     * Push whole liste to console
+     * @param list
+     */
     public void printList(LinkedList<String> list) {
         for (String message : list) {
             System.out.println(message);

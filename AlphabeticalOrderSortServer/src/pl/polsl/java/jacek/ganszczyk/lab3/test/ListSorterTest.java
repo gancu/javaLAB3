@@ -3,7 +3,7 @@ package pl.polsl.java.jacek.ganszczyk.lab3.test;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
-import pl.polsl.java.jacek.ganszczyk.lab3.model.exceptions.NullListException;
+import pl.polsl.java.jacek.ganszczyk.lab3.model.NullListException;
 import pl.polsl.java.jacek.ganszczyk.lab3.model.ListSorter;
 
 import java.util.LinkedList;
@@ -22,8 +22,8 @@ public class ListSorterTest {
     /**
      * Instances of model objects
      */
-    ListSorter testListSorter = new ListSorter();
-    LinkedList<String> testList = new LinkedList<>();
+    final ListSorter testListSorter = new ListSorter();
+    final LinkedList<String> testList = new LinkedList<>();
 
     /**
      * Initializing test list
